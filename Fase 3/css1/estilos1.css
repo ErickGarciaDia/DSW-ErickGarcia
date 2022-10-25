@@ -1,0 +1,53 @@
+.encabezado{
+    color: azure;
+    background-color: #222831;
+    text-align: center;
+    padding: 30px;
+}
+.navegacion{
+    background-color: peru ;
+    
+}
+.contenedor{
+    background-color: #393E46;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.lateral{
+
+    background-color: aqua;
+    padding: 30px;
+    grid-column: 1/2;
+}
+.principal{
+     background-color: #00ADB5;
+     padding: 30px;
+     grid-column: 2/5;
+}
+.pie{
+    text-align: right;
+    font-style: italic;
+    color: darkslategrey;
+    background-color: #EEEEEE;
+    padding: 30px;
+}
+
+.centradito{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: red;
+}
+
+h3{
+    color: black
+}
+.alin{
+    text-align: left;
+}
+
